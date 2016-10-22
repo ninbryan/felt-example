@@ -1,0 +1,22 @@
+{
+  "name": "felt-example",
+  "version": "0.0.0",
+  "description": "felt example",
+  "main": "server.js",
+  "scripts": {
+    "dev": "felt --recipe preact --src public --port 8080 --watch --debug --update always",
+    "serve": "node server.js"
+  },
+  "author": "Bryan Maamo",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.14.0",
+    "felt": "^0.2.6",
+    "felt-recipe-preact": "0.0.0"
+  },
+  "dependencies": {
+    "normalize.css": "^5.0.0",
+    "open-color": "^1.4.0",
+    "preact": "^6.3.0"
+  }
+}
